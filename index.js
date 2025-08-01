@@ -75,12 +75,12 @@ function solve() {
     const secretC = findSecretWithLagrange(points, k, bigInt.zero);
 
     console.log("\n-------------------------------------------");
-    console.log("✅ The secret value 'c' has been found:");
+    console.log("The secret value 'c' has been found:");
     console.log(secretC.toString());
     console.log("-------------------------------------------");
 
   } catch (error) {
-    console.error("❌ An error occurred:", error.message);
+    console.error("An error occurred:", error.message);
   }
 }
 
